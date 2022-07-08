@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Fragment } from 'react'
 
 // our-domain.com/news
@@ -8,15 +9,17 @@ function NewsPage() {
 			<h1>The News Page</h1>
 			<ul>
 				<li>
-					<a href="/news/nextjs-is-a-great-framework">
+					<Link href="/news/nextjs-is-a-great-framework">
 						NextJS Is A Great Framework
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href="/news/imagine-dragon">Imagine Dragon Is A Cool Group</a>
+					<Link href="/news/imagine-dragon">
+						Imagine Dragon Is A Cool Group
+					</Link>
 				</li>
 				<li>
-					<a href="/news/something-else">Something Else</a>
+					<Link href="/news/something-else">Something Else</Link>
 				</li>
 			</ul>
 		</Fragment>
