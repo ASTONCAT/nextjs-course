@@ -2,6 +2,21 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "..\\meetups-training-nextjs-app"
+		},
+		{
+			"path": "..\\test-nextjs-app"
+		},
+		{
+			"path": "..\\redux-next-app"
+		},
+		{
+			"path": "..\\book-your-hotel-room"
+		},
+		{
+			"path": "..\\personal-loan-calculator"
 		}
 	]
 }
